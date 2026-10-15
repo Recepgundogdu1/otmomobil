@@ -11,7 +11,8 @@ Otomobil::Otomobil(string _renk, string _model, int _fiyat) {
 Otomobil::Otomobil() {
     renk = "Belirsiz";
     model = "Belirsiz";
-    fiyat = 0;
+    fiyat = 0;//fiyat belirlemek 
+    alis_tarihi=1999
 }
 
 // 3. Bilgi Gösterme Fonksiyonu
